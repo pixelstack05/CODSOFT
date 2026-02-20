@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+
+header {
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #222, #444);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 60px 80px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.light {
+    background: #f4f4f4;
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.skills-list li {
+    background: #00adb5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
